@@ -12,7 +12,7 @@ _start:
 	mov 	rax, num1
 	mov 	rbx, num2
 	add		rax, rbx
-	cmp		rax, 150
+	cmp		rax, 151
 	jne 	.incorrect
 	jmp 	.correct
 
